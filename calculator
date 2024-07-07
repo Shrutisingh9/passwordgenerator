@@ -1,0 +1,19 @@
+ip1= int(input("Enter the first input: "))
+ip2= int(input("Enter the second input: "))
+
+operation = input("Enter the type of operation you want to perform (+, -, *, /, %): ")
+
+result = 0
+if operation == "+":
+    result = ip1+ip2
+elif operation == "-":
+    result = ip1-ip2
+elif operation == "*":
+    result = ip1*ip2
+elif operation == "/":
+    result = ip1//ip2
+elif operation == "%":
+    result = ip1%ip2
+else:
+    print("Invalid Input")
+print("Your answer is: ",result)
